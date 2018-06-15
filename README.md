@@ -1,4 +1,4 @@
-RTQD (RusT job Queue Daemon)
+RTQ (RusT job Queue)
 ===
 
 # Description
