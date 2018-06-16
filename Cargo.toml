@@ -1,7 +1,11 @@
 [package]
 name = "rtq"
 version = "0.1.0"
-authors = ["l_hou"]
+authors = ["lh"]
+description = "an atd like job management tool. run jobs one by one on single host"
+homepage = "https://github.com/funzoo/rtq"
+repository = "https://github.com/funzoo/rtq"
+license = "MIT"
 
 [lib]
 name = "rtqlib"
