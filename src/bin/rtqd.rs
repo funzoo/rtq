@@ -144,7 +144,7 @@ fn main() {
 
             process_task(pending_task);
 
-            let time_finished = format!("{}", Local::now().format(DEFAULT_DATETIME_FORMAT));
+            let time_finished = Local::now().format(DEFAULT_DATETIME_FORMAT).to_string();
             let finished_task = FinishedTask::new(&working_task, &time_finished, "normal exit", 0);
 
             task_db.remove_working_task(&working_task);
